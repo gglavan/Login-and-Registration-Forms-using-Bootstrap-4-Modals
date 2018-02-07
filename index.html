@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">    
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<title>Sign In Modal</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login-modal">
+				View Demo
+			</button>
+				
+			<!-- Modal -->
+			<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="action-title">Login with</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="horizontally-aligned">
+								<a href=""><i class="fab fa-github-square fa-4x" style="color: #413B3B"></i></a>	
+								<a href=""><i class="fab fa-google-plus-square fa-4x" style="color: #F94A35"></i></a>
+								<a href=""><i class="fab fa-facebook-square fa-4x" style="color: #435CAC"></i></a>
+							</div>
+						</div>
+						<div class="horizontally-aligned">
+							<div class="horizontal-line"></div>
+							<div>or</div>
+							<div class="horizontal-line"></div>
+						</div>
+						<div id="login-form">
+							<form action="" class="container">
+								<input type="text" class="form-input" placeholder="Email" name="email" autocomplete="off">
+								<input type="password" class="form-input" placeholder="Password" name="password" autocomplete="off">
+								<input type="submit" class="form-input btn-login" value="LOGIN">
+							</form>
+							<div class="modal-footer">
+								<p class="footer-info">
+									Looking to <a href="" id="login">create an account</a> ?
+								</p>
+							</div>
+						</div>
+						<div id="register-form" class="not-displayed">
+							<form action="" class="container">
+								<input type="text" class="form-input" placeholder="Email" name="email" autocomplete="off">
+								<input type="password" class="form-input" placeholder="Password" name="password" autocomplete="off">
+								<input type="password" class="form-input" placeholder="Repeat Password" name="password" autocomplete="off">
+								<input type="submit" class="form-input btn-login" value="CREATE ACCOUNT">
+							</form>
+							<div class="modal-footer">
+								<p class="footer-info">
+									Already have an account? <a href="" id="register">Login</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>  
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+		<script src="./src/script.js"></script>
+	</body>
+</html>

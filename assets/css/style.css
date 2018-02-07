@@ -1,0 +1,70 @@
+body { 
+	background: url(../background/night-dark.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container button {
+	margin-top: 20px;
+	float: right;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-footer {
+	border-top: none !important;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.horizontally-aligned {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.horizontal-line {
+	border : 1px solid #E8E8E8;
+	width: 25%;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-input {
+	padding: 10px;
+	width: 100%;
+	background-color: #E8E8E8;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.fab:hover {
+	transform: scale(0.9) !important;
+}
+
+.btn-login {
+	background-color:#00BBFF;
+	color: #fff;
+	cursor: pointer;
+	transition: .2s all ease-in-out;
+}
+
+.btn-login:hover {
+	opacity: 0.9;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+}
+
+.footer-info {
+	margin: auto;
+	color: #9F9F9F;
+}
+
+.not-displayed {
+	display: none;
+}
